@@ -6,3 +6,4 @@
 Файловая структура проекта соответствует требованиям БЭМ.
 
 **Ссылка на проект на GitHub Pages**
+https://zhte-learn.github.io/russian-travel/
