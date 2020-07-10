@@ -17,7 +17,7 @@
       rgba(42, 44, 47, .8), 
       rgba(42, 44, 47, .8)
     ),
-    url(./images/cover-trains.jpg);
+    url(../../images/cover-trains.jpg);
     background-size: cover;
 }
 
