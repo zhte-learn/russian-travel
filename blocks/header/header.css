@@ -6,21 +6,36 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+  }  
+}
+
+@media screen and (max-width: 1279px) {
   .header {
     max-width: 928px;
   }  
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 990px) {
+  .header {
+    max-width: 90%;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+/*пришлось сделать этот медиазапрос, чтобы на ширине 768рх
+  обеспечить ширину блока в соответствии с макетом.
+  Если оставить 90%, то получается 691рх*/
   .header {
     max-width: 720px;
   }  
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 760px) {
   .header {
-    width: 90%;
+    max-width: 90%;
   }  
 }
 

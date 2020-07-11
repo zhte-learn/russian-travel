@@ -1,4 +1,5 @@
 .lead__caption {
+  max-width: 984px;
   margin: 0;
   padding-top: 8px;
   font-size: 10px;
@@ -11,21 +12,28 @@
 
 @media screen and (max-width: 990px) {
   .lead__caption {
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
   }  
 }
 
 @media screen and (max-width: 768px) {
+  /*пришлось сделать этот медиазапрос, чтобы на ширине 768рх
+  обеспечить ширину блока в соответствии с макетом.
+  Если оставить 90%, то получается 691рх*/
   .lead__caption {
     max-width: 720px;
-    margin: 0 auto;
+  }  
+}
+
+@media screen and (max-width: 760px) {
+  .lead__caption {
+    max-width: 90%;
   }  
 }
 
 @media screen and (max-width: 320px) {
   .lead__caption {
     max-width: 288px;
-    margin: 0 auto;
   }  
 }

@@ -12,20 +12,29 @@
 
 @media screen and (max-width: 990px) {
   .intro {
-    width: 90%;
+    max-width: 90%;
   }  
 }
 
 @media screen and (max-width: 768px) {
+  /*пришлось сделать этот медиазапрос, чтобы на ширине 768рх
+  обеспечить ширину блока в соответствии с макетом.
+  Если оставить 90%, то получается 691рх*/
   .intro {
     max-width: 720px;
     padding: 88px 0;
   }  
 }
 
+@media screen and (max-width: 760px) {
+  .intro{
+    max-width: 90%;
+  }  
+}
+
 @media screen and (max-width: 320px) {
   .intro {
-    padding: 64px 0;
     max-width: 288px;
+    padding: 64px 0;
   }  
 }

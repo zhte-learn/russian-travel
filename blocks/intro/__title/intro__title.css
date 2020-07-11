@@ -20,9 +20,3 @@
     line-height: 35px;
   }  
 }
-
-@media screen and (max-width: 320px) {
-  .intro__title {
-    max-width: 250px;/*для обеспечение переноса как на макете*/
-  }  
-}
