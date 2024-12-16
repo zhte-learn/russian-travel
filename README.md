@@ -1,9 +1,10 @@
-# Проект: Путешествие по России
+# Project: Russian Travel
 
-### Обзор
-Учебный проект о путешествиях по России.
-При создании проекта были реализованы основные принципы адаптивной верстки, grig и flex.
-Файловая структура проекта соответствует требованиям БЭМ.
+Overview: Study project by Yandex.Practicum focused on travel across Russia. 
+The project implements core principles of responsive web design using grid and flexbox layouts. 
+The file structure follows the BEM methodology, ensuring modular and maintainable code.
+### Technology:
+HTML, CSS
 
-**Ссылка на проект на GitHub Pages**
+**You can view the project on GitHub Pages**
 https://zhte-learn.github.io/russian-travel/
